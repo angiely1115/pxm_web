@@ -4,7 +4,11 @@ body{
 	color:#666;
 	font:12px "Microsoft yahei";
 	min-width:1240px;
+<<<<<<< HEAD
 	background:#F5F5F5;
+=======
+	background:#f5f5f5;
+>>>>>>> 3b7b72fe0aa2672e67d17f7b7537da3fdb13dd47
 }
 body,ul,li,p,dl,dt,dd{
 	margin:0;

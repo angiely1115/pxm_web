@@ -637,7 +637,45 @@
 			return false;
 		});
 	</script>
+				</ul>
+				</div>
 
+				<!-- end slidebar(右侧悬浮区域) -->
+				<script type="text/javascript" src="js/jquery.min.js"></script>
+				<script type="text/javascript" src="js/main.js"></script>
+				<script type="text/javascript" src="js/countDown.js"></script>
+				<script type="text/javascript">
+					/* 右侧悬浮部分显示隐藏 */
+					$(".slidebar li").hover(function() {
+						$(this).find(".rtipscont").stop(true, true).animate({
+							left: "-182px"
+						}, 500);
+					}, function() {
+						$(this).find(".rtipscont").stop(true, true).animate({
+							left: "-210px"
+						}, 500);
+					});
+					/* 返回顶部 */
+					$(window).scroll(function() {
+						var st = $(this).scrollTop();
+						if(st > 800) {
+							$("#returnTop").css({
+								"visibility": "visible"
+							});
+						} else {
+							$("#returnTop").css({
+								"visibility": "hidden"
+							});
+						}
+					});
+					$("#returnTop").click(function() {
+						//var speed = 200;//滑动的速度
+						$("body,html").animate({
+							scrollTop: 0
+						}, 500);
+						return false;
+					});
+				</script>
 	</body>
 
 </html>

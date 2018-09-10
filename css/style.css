@@ -3,7 +3,11 @@
 /* top style start */
 .header{
 	background:#fff;
+<<<<<<< HEAD
 	/*border-bottom:1px solid #000 ;*/
+=======
+	border-bottom:1px solid #000;
+>>>>>>> 3b7b72fe0aa2672e67d17f7b7537da3fdb13dd47
 }
 .top-box{
 	height:36px;
@@ -343,7 +347,10 @@
 	position: relative;
 }
 .mod-banner .slide-box{
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 3b7b72fe0aa2672e67d17f7b7537da3fdb13dd47
 	height:448px;
 }
 .mod-banner .slide-box .slider-item{
@@ -504,7 +511,11 @@
 /* left-sub-list(二级导航显示/隐藏区域) style start */
 .left-sub-list{
 	background:#fff;
+<<<<<<< HEAD
 	width:1030px;
+=======
+	width:720px;
+>>>>>>> 3b7b72fe0aa2672e67d17f7b7537da3fdb13dd47
 	padding:24px 0;
 	left:210px;
 	display:none;
