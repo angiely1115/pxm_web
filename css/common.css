@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body{
+	color:#666;
+	font:12px "Microsoft yahei";
+	min-width:1240px;
+	background:#F5F5F5;
+}
+body,ul,li,p,dl,dt,dd{
+	margin:0;
+	padding:0;
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+img{
+	border:none;
+	display:block;
+}
+i,em{
+	font-style:normal;
+}
+.clearfix:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.clearfix{
+	zoom:1;
+}
